@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .wrapper
+    {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gainsboro;
+    }
+
+    .container
+    {
+        width: 80%;
+        height: 80%;
+        /* background-color: rgb(0, 0, 255); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    h3{
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(218, 222, 113);
+        text-transform: uppercase;
+        font-family: cursive;
+       
+
+    }
+    .box{
+        border-radius:10px ;
+    }
+    .box-1{
+        width: 100%;
+        height: 10%;
+        background-color: darkcyan;
+        box-shadow: 5px 5px 5px rgb(45, 39, 83);
+        
+    }
+    .box-2
+    {
+        width: 100%;
+        height: 10%;
+        background-color: darkmagenta;
+        box-shadow: 5px 5px 5px rgb(45, 39, 83);
+    }
+    .box-3
+    {
+        /* background-color: darkolivegreen; */
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box-3 > .item-1
+    {
+        width: 30%;
+        height: 100%;
+        background-color: rgb(78, 127, 134);
+        box-shadow: 5px 5px 5px rgb(45, 39, 83);
+    }
+    .box-3 .item-2
+    {
+        width: 65%;
+        height: 100%;
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } 
+    .item 
+    {
+        border-radius: 10px;
+    }
+    .test 
+    {
+        border-radius: 10px;
+    }
+    .box-3 .item-2 .test-1
+    {
+        width: 100%;
+        height: 45%;
+        background-color: rgb(143, 146, 93);
+        box-shadow: 5px 5px 5px rgb(45, 39, 83);
+    }
+    .box-3 .item-2 .test-2
+    {
+        width: 100%;
+        height: 45%;
+        background-color: rgb(29, 119, 120);
+        box-shadow: 5px 5px 5px rgb(45, 39, 83);
+    }
+
+    .box-4
+    {
+        background-color: rgb(105, 33, 141);
+        width: 100%;
+        height: 10%;
+        box-shadow: 5px 5px 5px rgb(45, 39, 83);
+    }
+</style>
+<body>
+<div class="wrapper">  
+    <div class="container">
+        <div class="box box-1"> <h3>Header</h3> </div>
+        <div class="box box-2"><h3>Navigation</h3> </div>
+        <div class="box box-3">
+            <div class="item item-1"><h3>Aside</h3> </div>
+            <div class="item item-2">
+                <div class="test test-1"><h3>Content</h3></div>
+                <div class="test test-2"><h3>Section</h3></div>
+            </div>
+        </div>
+        <div class="box box-4"><h3>Footer</h3></div>
+    </div>
+</div>
+
+</body>
+</html>
